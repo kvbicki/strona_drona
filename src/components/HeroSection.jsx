@@ -1,15 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
+import {floatAnimation} from "./util/animations.js";
 
-const floatAnimation = {
-  y: [0, -20, 0],
-  transition: {
-    duration: 4,
-    repeat: Infinity,
-    repeatType: "loop",
-    ease: "easeInOut",
-  },
-};
 
 const HeroSection = () => (
   <section id="hero" className="hero">
