@@ -21,10 +21,10 @@ export const team = [
 export const drones = [
   {
     id: 1,
-    name: "Dron Phantom X",
+    name: "Wizualizacja",
     description: "Zaawansowany dron z kamerą 4K i stabilizacją obrazu.",
     image:
-        "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=600&q=80",
+        "/src/assets/model.jpg",
   },
   {
     id: 2,

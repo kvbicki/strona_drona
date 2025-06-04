@@ -1,0 +1,26 @@
+.hero {
+  text-align: left;
+  padding: 20px;
+  height: 88vh;
+  background-image: url("../../../assets/drone1.jpg");  
+  background-size: cover; /* dopasowanie do całej sekcji */
+  background-position: center; /* wycentrowanie */
+  background-repeat: no-repeat;
+  color: #e0e0e0;
+}
+
+
+.hero h2 {
+  margin-top:100px;
+  margin-left:60px;
+  font-size: 3rem;
+  margin-bottom: 0px;
+  /* padding:60px; */
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-left:60px;
+  margin-right:10px;
+}
+

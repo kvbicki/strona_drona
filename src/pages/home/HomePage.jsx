@@ -3,6 +3,7 @@ import HeroSection from "./components/HeroSection.jsx";
 import DronesSection from "./components/DronesSection.jsx";
 import AboutSection from "./components/AboutSection.jsx";
 import Footer from "../../components/Footer.jsx";
+import Contact from "./components/Contact.jsx";
 import React from "react";
 
 const HomePage = () => {
@@ -12,6 +13,7 @@ const HomePage = () => {
             <HeroSection/>
             <DronesSection/>
             <AboutSection/>
+            <Contact/>
             <Footer/>
         </div>
     )
