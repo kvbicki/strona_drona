@@ -1,5 +1,5 @@
 .header {
-    background-color: #0566a7d5;
+    background-color:  #1e1e1e;
     color: #e0e0e0;
     padding: 20px 40px;
     display: flex;
@@ -12,7 +12,7 @@
 }
 
 .header nav a {
-    color: #000000;
+    color: #ffffff;
     margin-left: 20px;
     text-decoration: none;
     font-weight: 700;
