@@ -1,6 +1,16 @@
 import React from "react";
 import { motion } from "framer-motion";
 
+const floatAnimation = {
+  y: [0, -20, 0],
+  transition: {
+    duration: 4,
+    repeat: Infinity,
+    repeatType: "loop",
+    ease: "easeInOut",
+  },
+};
+
 const HeroSection = () => (
   <section id="hero" className="hero">
     <motion.h2
@@ -21,7 +31,7 @@ const HeroSection = () => (
       src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
       alt="Dron w locie"
       initial={{ scale: 0.8, opacity: 0 }}
-      animate={{ scale: 1, opacity: 1 }}
+      animate={{ scale: 1, opacity: 1, ...floatAnimation }}
       transition={{ delay: 1.5, duration: 1 }}
       className="hero-image"
     />

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import DronesSection from "./components/DronesSection";
@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import "./App.css";
 
 const App = () => {
+
   return (
     <div>
       <Header />
