@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f4f8;
+  color: #333;
+}
+
+.header {
+  background: #0077cc;
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.header nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #00b2eb, #005f99);
+  color: white;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 40px;
+}
+
+.hero-image {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.drones-section {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.drones-section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2rem;
+  color: #0077cc;
+}
+
+.drones-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.drone-card {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+
+.drone-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.drone-card h3 {
+  margin: 10px 0 5px;
+  color: #005f99;
+}
+
+.drone-card p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.about-section {
+  background: #e0f7ff;
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: 0 auto 80px;
+  text-align: center;
+}
+
+.about-section h2 {
+  color: #0077cc;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  max-width: 600px;
+  margin: 0 auto 40px;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.team {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  width: 220px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+
+.team-member img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.team-member h3 {
+  margin: 10px 0 5px;
+  color: #005f99;
+}
+
+.team-member p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.footer {
+  background: #0077cc;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.9rem;
+}
