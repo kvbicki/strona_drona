@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { team } from "./util/mock.js"
+import { team } from "../util/mock.js"
 import AboutSectionList from "./AboutSectionList.jsx";
 
 

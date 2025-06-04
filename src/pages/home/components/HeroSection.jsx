@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import {floatAnimation} from "./util/animations.js";
+import {floatAnimation} from "../util/animations.js";
 
 
 const HeroSection = () => (

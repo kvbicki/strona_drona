@@ -1,6 +1,6 @@
 import React from "react";
 import DronesSectionList from "./DronesSectionList.jsx";
-import {drones} from "./util/mock.js";
+import {drones} from "../util/mock.js";
 
 
 
