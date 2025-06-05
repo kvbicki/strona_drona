@@ -25,7 +25,7 @@ export const drones = [
     description:
       "Innowacyjne rozwiązanie dla jednostek wojskowych, sił specjalnych i pasjonatów ASG. Dron działa jako interaktywny cel, wykrywający trafienia i reagujący na nie.",
     image:
-      "https://images.unsplash.com/photo-1518773553398-650c184e0bb3?auto=format&fit=crop&w=600&q=80",
+      "/src/assets/drone1.jpg",
   },
   {
     id: 2,
@@ -33,7 +33,7 @@ export const drones = [
     description:
       "Czujniki piezoelektryczne rejestrują uderzenia kulek ASG, zapewniając realistyczne warunki treningu.",
     image:
-      "https://images.unsplash.com/photo-1518773553398-650c184e0bb3?auto=format&fit=crop&w=600&q=80",
+      "/src/assets/hitted.jpg",
   },
   {
     id: 3,
@@ -41,7 +41,7 @@ export const drones = [
     description:
       "Lekka konstrukcja z pleksi lub włókna węglowego, odporna na uszkodzenia podczas treningów.",
     image:
-      "https://images.unsplash.com/photo-1518773553398-650c184e0bb3?auto=format&fit=crop&w=600&q=80",
+      "/src/assets/model.jpg",
   },
   {
     id: 4,
@@ -57,7 +57,7 @@ export const drones = [
     description:
       "Szkolenia wojskowe, rozgrywki ASG, treningi jednostek specjalnych – realistyczne i dynamiczne ćwiczenia.",
     image:
-      "https://images.unsplash.com/photo-1518773553398-650c184e0bb3?auto=format&fit=crop&w=600&q=80",
+      "/src/assets/airsoft.jpg",
   },
   {
     id: 6,
