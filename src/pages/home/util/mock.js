@@ -21,23 +21,50 @@ export const team = [
 export const drones = [
   {
     id: 1,
-    name: "Wizualizacja",
-    description: "Zaawansowany dron z kamerą 4K i stabilizacją obrazu.",
+    name: "Autonomiczny Dron Szkoleniowy ASG/UAV",
+    description:
+      "Innowacyjne rozwiązanie dla jednostek wojskowych, sił specjalnych i pasjonatów ASG. Dron działa jako interaktywny cel, wykrywający trafienia i reagujący na nie.",
     image:
-        "/src/assets/model.jpg",
+      "https://images.unsplash.com/photo-1518773553398-650c184e0bb3?auto=format&fit=crop&w=600&q=80",
   },
   {
     id: 2,
-    name: "Dron SkyMaster",
-    description: "Idealny do fotografii i filmowania z powietrza.",
+    name: "System detekcji trafień",
+    description:
+      "Czujniki piezoelektryczne rejestrują uderzenia kulek ASG, zapewniając realistyczne warunki treningu.",
     image:
-        "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1518773553398-650c184e0bb3?auto=format&fit=crop&w=600&q=80",
   },
   {
     id: 3,
-    name: "Dron AeroFly",
-    description: "Lekki i szybki, świetny dla początkujących.",
+    name: "Wytrzymała tarcza ochronna",
+    description:
+      "Lekka konstrukcja z pleksi lub włókna węglowego, odporna na uszkodzenia podczas treningów.",
     image:
-        "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1518773553398-650c184e0bb3?auto=format&fit=crop&w=600&q=80",
+  },
+  {
+    id: 4,
+    name: "Tryby pracy",
+    description:
+      "Patrolowy, treningowy, symulacja zestrzelenia – dopasowane do różnych scenariuszy ćwiczeń.",
+    image:
+      "https://images.unsplash.com/photo-1518773553398-650c184e0bb3?auto=format&fit=crop&w=600&q=80",
+  },
+  {
+    id: 5,
+    name: "Zastosowania",
+    description:
+      "Szkolenia wojskowe, rozgrywki ASG, treningi jednostek specjalnych – realistyczne i dynamiczne ćwiczenia.",
+    image:
+      "https://images.unsplash.com/photo-1518773553398-650c184e0bb3?auto=format&fit=crop&w=600&q=80",
+  },
+  {
+    id: 6,
+    name: "Dlaczego warto wybrać nas?",
+    description:
+      "Unikalność, niska cena, bezpieczeństwo dzięki awaryjnemu lądowaniu oraz skalowalność systemu.",
+    image:
+      "https://images.unsplash.com/photo-1518773553398-650c184e0bb3?auto=format&fit=crop&w=600&q=80",
   },
 ];

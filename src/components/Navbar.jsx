@@ -22,8 +22,8 @@ const Navbar = () => {
 
       <ul className={`nav-menu ${isOpen ? "open" : ""}`}>
         <li><a href="#hero" onClick={handleLinkClick}>Home</a></li>
-        <li><a href="#about" onClick={handleLinkClick}>About us</a></li>
-        <li><a href="#services" onClick={handleLinkClick}>Services</a></li>
+        <li><a href="#drones" onClick={handleLinkClick}>Oferta</a></li>
+        <li><a href="#about" onClick={handleLinkClick}>O nas</a></li>
         <li><a href="#contact" onClick={handleLinkClick}>Contact</a></li>
       </ul>
 
