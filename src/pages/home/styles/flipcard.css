@@ -56,7 +56,7 @@
 .flip-container .front,
 .flip-container .back {
     grid-area: 1/1;
-
+    backface-visibility: hidden;
 }
 
 
