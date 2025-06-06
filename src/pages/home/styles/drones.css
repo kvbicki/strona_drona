@@ -43,15 +43,15 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content: center; /* Zapobiega dużej przerwie w rzędzie */
+  justify-content: center;
 }
 
 .drone-card {
   background-color: #1e1e1e;
   border-radius: 15px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.7);
-  flex: 1 1 280px; /* Minimum width 280px, rośnie elastycznie */
-  max-width: 300px; /* Ograniczenie rozmiaru na dużym ekranie */
+  flex: 1 1 280px;
+  max-width: 300px;
   padding: 20px;
   text-align: center;
   cursor: pointer;
