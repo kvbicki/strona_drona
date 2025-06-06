@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.contact-container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  font-family: Arial, sans-serif;
+  padding: 0 1rem;
+}
+
+.contact-container h2 {
+  color: #ffffff;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.contact-container p {
+  font-size: 1rem;
+  color: #fffdfd;
+  margin-bottom: 1rem;
+}
+
+.input-field,
+.textarea-field {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 1em;
+  resize: vertical;
+  min-height: 40px;
+  max-height: 150px;
+  overflow-y: auto;
+  background-color: white;
+  transition: border-color 0.3s ease;
+}
+
+.textarea-field {
+  min-height: 100px;
+}
+
+.input-field:focus,
+.textarea-field:focus {
+  outline: none;
+  border-color: #83A8D3;
+  box-shadow: 0 0 5px #83A8D3;
+}
+
+.error-message {
+  color: #d93025;
+  margin-top: 0.5em;
+  font-weight: 600;
+  font-size: 0.9rem;
+  min-height: 1.2em;
+}
