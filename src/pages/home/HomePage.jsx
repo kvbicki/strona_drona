@@ -5,6 +5,7 @@ import AboutSection from "./components/AboutSection.jsx";
 import Footer from "../../components/Footer.jsx";
 import Contact from "./components/Contact.jsx";
 import React from "react";
+import FlipCard from "./components/FlipCard.jsx";
 
 const HomePage = () => {
     return (
@@ -15,6 +16,7 @@ const HomePage = () => {
             <AboutSection/>
             <Contact/>
             <Footer/>
+            <FlipCard/>
         </div>
     )
 

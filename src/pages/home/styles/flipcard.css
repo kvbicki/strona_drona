@@ -1,0 +1,68 @@
+
+.flip-container {
+    cursor: pointer;
+    --ofset-x: 50px
+}
+
+.flip-container .flipper {
+    display: grid;
+    transform-style: preserve-3d;
+}
+
+
+.flip-container.flipped .flipper {
+    transform: translateX(0) rotateY(-180deg);
+}
+
+
+@keyframes forwardAnim {
+    0% {
+        transform: translateX(0) rotateY(0);
+    }
+    25% {
+        transform: translateX(50px) rotateY(0);
+    }
+    75% {
+        transform: translateX(50px) rotateY(-180deg);
+    }
+    100% {
+        transform: translateX(0) rotateY(-180deg);
+    }
+}
+
+@keyframes backwardAnim {
+    0% {
+        transform: translateX(0) rotateY(180deg);
+    }
+    25% {
+        transform: translateX(50px) rotateY(180deg);
+    }
+    75% {
+        transform: translateX(50px) rotateY(0);
+    }
+    100% {
+        transform: translateX(0) rotateY(0);
+    }
+}
+
+.flip-container.animate-forward .flipper {
+    animation: forwardAnim 1.5s ease-in-out forwards;
+}
+
+.flip-container.animate-backward .flipper {
+    animation: backwardAnim 1.5s ease-in-out forwards;
+}
+
+.flip-container .front,
+.flip-container .back {
+    grid-area: 1/1;
+
+}
+
+
+/* 10. Styl rewersu (back) – wstępnie obrócony, żeby był ukryty na starcie */
+.flip-container .back {
+    transform: rotateY(180deg);
+}
+
+
