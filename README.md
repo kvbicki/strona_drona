@@ -1,3 +1,3 @@
 # React + Vite
 
-Project not finished :(
+Project not finished 
